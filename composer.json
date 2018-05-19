@@ -1,17 +1,18 @@
 {
     "name": "chenyouming/queue",
-    "description": "chenyouming",
+    "description": "this is a queue",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Tommy",
+            "name": "chen you ming",
             "email": "77459319@qq.com"
         }
     ],
-	"minimum-stability": "dev",
-    "require": {
-		"predis/predis": "^1.1"
-	},
+    "minimum-stability": "dev",
+    "require": {},
 	"autoload": {
         "psr-4": {"queue\\": "src/"}
     }
+	
 }
