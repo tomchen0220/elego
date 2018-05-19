@@ -1,0 +1,17 @@
+{
+    "name": "chenyouming/queue",
+    "description": "chenyouming",
+    "authors": [
+        {
+            "name": "Tommy",
+            "email": "77459319@qq.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+		"predis/predis": "^1.1"
+	},
+	"autoload": {
+        "psr-4": {"queue\\": "src/"}
+    }
+}
